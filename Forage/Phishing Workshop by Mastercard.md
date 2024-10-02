@@ -34,3 +34,22 @@ Click here to reset your password in the next hour or your account will be locke
  
 Regards,Mastercard IT
 ```
+
+
+
+```
+From: mastercardIT@gmail.com
+To: employee@email.com 
+Subject: System Update - Password Reset Required
+
+Body: 
+
+To All Mastercard Staffs,
+
+The IT department has patched the system and server firmware due to risk of compromise. It will require all staffs to reset and update their password.
+
+Please click [here](https://en.wikipedia.org/wiki/Phishing) to update your password in the next hour or your account will be locked. Please contact the IT support regarding to any problem during log in. 
+ 
+Regards,
+Mastercard IT Department
+```
