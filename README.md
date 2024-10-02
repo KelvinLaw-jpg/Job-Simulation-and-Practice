@@ -3,6 +3,6 @@ Mini Projects and Practices of the day to day job of a Cybersecurity Professiona
 
 It includes all mini projects and practices from Job simulation platforms. Both Technical or non Technical
 
-[Forage]
+[Forage](Forage)
 
 Clicked
