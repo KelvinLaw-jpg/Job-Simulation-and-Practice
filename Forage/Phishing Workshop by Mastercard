@@ -13,3 +13,24 @@ Task 2: Design a short presentation to educate staffs on Phishing attempts
 
 ### Task 1
 
+The following email is a weak phishing email. 
+
+1.1. Spot the issue and what suggest that it is a phishing email
+
+1.2 Change it so it is more convincing
+
+```
+From: mastercardsIT@gmail.com
+To: employee@email.com 
+Subject: URGENT!  Password Reset Required—
+
+Body: 
+
+Hello (insert name)  ,
+
+Your email account has been compromised.  immediate action is required to reset your password!
+
+Click here to reset your password in the next hour or your account will be locked: [https://en.wikipedia.org/wiki/Phishing](https://en.wikipedia.org/wiki/Phishing)
+ 
+Regards,Mastercard IT
+```
