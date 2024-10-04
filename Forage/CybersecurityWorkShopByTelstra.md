@@ -134,9 +134,9 @@ The attack is a Remote Code Execution (RCE). As firewall log suggested, the acto
 
 The traffic can be blocked by following ways:
 
-1.	Block incoming traffic on client request path '/tomcatwar.jsp'
-2.	Block specific parameters such as cmd, exec, which all related to file execution
-3.	Block command execution attempts: Block patterns that are commonly used in code injection or execution attempts such as Runtime.getRuntime().exec()'
+1.  Block incoming traffic on client request path '/tomcatwar.jsp'
+2.  Block specific parameters such as cmd, exec, which all related to file execution
+3.  Block command execution attempts: Block patterns that are commonly used in code injection or execution attempts such as Runtime.getRuntime().exec()'
 4.  Block all traffic going through port 80(HTTP)
 
 For any questions or issues, don’t hesitate to reach out to us.
