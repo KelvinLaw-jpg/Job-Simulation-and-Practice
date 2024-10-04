@@ -56,7 +56,7 @@ Destricption of what happened
 -Client Request Data: actualy execution `Runtime.getRuntime().exec()`
 -Affected Teams: Only nbn is critical, however, other teams are also exposed and should be informed.
 
-Email suggested
+Email suggestion
 ```
 From: Telstra Security Operations
 To: <Mobile Team, nbn Team, Networks Team> (<mobileteam@email, nbn@email, networks@email>)
