@@ -43,6 +43,10 @@ The purpose of this email is to ensure the respective team is aware of the ongoi
 
 ![Affected Infrastructure](Links/AffectedInfrastructure.png)
 
+![Actual Payload](Links/Payload.png)
+
+
+
 ```
 From: Telstra Security Operations
 To: <Mobile Team, nbn Team, Networks Team> (<mobileteam@email, nbn@email, networks@email>)
