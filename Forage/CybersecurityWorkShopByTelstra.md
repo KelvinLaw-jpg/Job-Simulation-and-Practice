@@ -145,6 +145,25 @@ Kind regards,
 Telstra Security Operations
 
 ```
+
+## Task 3-Mitigate the malware attack
+
+#### Background
+
+Work with the networks team to implement a firewall rule using the Python scripting language. Python is a common scripting language used across both offensive and defensive information security tasks.
+
+In this task, we will simulate the firewall’s scripting language by using an HTTP Server. You can assume this HTTP Server has no computational requirements and has the sole purpose of filtering incoming traffic.
+
+In the starter codebase, you will find a test script that you can use to simulate the malicious requests to the server.
+
+#### Task Objective
+
+Use Python to develop a firewall rule to mitigate the attack. Develop this rule in `firewall_server.py` and only upload this file back here.
+
+You may use `test_requests.py` to test your code whilst the firewall HTTP server is running.
+
+
+
 ---
 ### Reference and Additional Info
 [sprin4shell](https://www.cisa.gov/news-events/alerts/2022/04/01/spring-releases-security-updates-addressing-spring4shell-and-spring)
