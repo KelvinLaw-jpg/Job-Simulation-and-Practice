@@ -45,8 +45,18 @@ The purpose of this email is to ensure the respective team is aware of the ongoi
 
 ![Actual Payload](Links/Payload.png)
 
+Destricption of what happened
 
+-Event happened at 2 16pm
+-Origin suggest attacker is from AU-Australia
+-Status: Bypass
+-Source IP: Attackers IP
+-Destination: nbn service
+-File/Path: file being post
+-Client Request Data: actualy execution `Runtime.getRuntime().exec()`
+-Affected Teams: Only nbn is critical, however, other teams are also exposed and should be informed.
 
+Email suggested
 ```
 From: Telstra Security Operations
 To: <Mobile Team, nbn Team, Networks Team> (<mobileteam@email, nbn@email, networks@email>)
@@ -57,29 +67,27 @@ To Mobile, nbn and Networks Team,
 
 At 14:16 Mar 20th, the security team has noticed an abnormal Firewall activity.
 After examining, we received a large amount of Firewall bypass from an attacker in Australia. 
-The attacker is trying to post and execute a malicious file(tomcatwar.jsp) through the nbn.external.network.
-Please do a scan and if the aforementioned .jsp file if found, remove it asap. 
-The breach is caused by a vulnerability in the Spring Cloud Function
-(RCE Vulnerability code: CVE-2022-22965 also known as Spring4Shell). 
+The attacker is trying to post and execute a malicious file(tomcatwar.jsp) to nbn.external.network.
+This has led to downtime across our nbn network leading to impaired service functionality
+
+Other teams with the below mentioned services are also exposed to the vulnerability.
+Please do a scan and if the aforementioned .jsp file if found, remove it asap.
+Telstra Security Operations is monitoring the incident and will revert with an update.
+Please have site reliability engineers on standby for mitigation
 
 Below versions and Framework are compromised:
 Spring Cloud Function version 3.1.6 and 3.2.2
 Spring Framework versions 5.3.0 to 5.3.17 and 5.2.0 to 5.2.19
 
-Details
-The bypass of the patch can occur because Java Development Kit (JDK) versions 9 and later provide
-two sandbox restriction methods, providing a path to exploit CVE-2010-1622
-(JDK versions before 9 only provide one sandbox restriction method).
-
-Solution
+Solutions an Updates
 Please follow the below link for stable updates and patches for Spring Framework:
 5.3.18+
 5.2.20+
 
-Latest Spring Cloud Function update
+Details of the Event
+Spring Cloud Function 
 https://spring.io/blog/2022/03/29/cve-report-published-for-spring-cloud-function
-
-Latest Spring Framework RCE
+Spring Framework RCE
 https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement
 
 
@@ -92,7 +100,7 @@ Telstra Security Operations
 Main Point of this email
 1. Give a brief background on the event, including time, who, and what
 2. Clearly state what has been affected and their versions
-3. Reason why on why the breach happened and provide solution
+3. Reason on why the breach occured and provide solution, and ask for engineers to be on standby mode for mitigation
 4. Follow up with additional details if needed
 
 ---
