@@ -26,7 +26,7 @@ Subject: URGENT!  Password Reset Required—
 
 Body: 
 
-Hello (insert name)  ,
+Hello (insert name),
 
 Your email account has been compromised.  immediate action is required to reset your password!
 
