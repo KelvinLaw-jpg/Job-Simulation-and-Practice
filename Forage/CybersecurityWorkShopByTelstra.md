@@ -105,10 +105,46 @@ Main Point of this email
 
 ---
 
-## Task 2
+## Task 2-Block the Attack with a firewall Rule
 
+#### Background
 
+Now that you have notified the infrastructure owner of the current attack, analyse the firewall logs to find the pattern in the attacker’s network requests. You won’t be able to simply block IP addresses, because of the distributed nature of the attack, but maybe there is another characteristic of the request that is easy to block.
 
+An important responsibility of an information security analyst is the ability to work across disciplines with multiple teams, both technical and non-technical.
+
+#### Task Objective
+Analyse the firewall logs in the resources section.
+
+Next, identify what characteristics of the Spring4Shell vulnerability have been used.
+
+Finally, draft an email to the networks team with your findings. Make sure to be concise, so that they can develop the firewall rule to mitigate the attack. You can assume the recipient is technical and has dealt with these types of requests before.
+
+```
+From: Telstra Security Operations
+To: <nbn Team> (<nbn@email>)
+Subject: [IMPORTANT] Create Firewall Rule to mitigate malware attack
+—
+Body: 
+To Team nbn, 
+
+We would like to request the creation of a firewall rule and provide you more information about the ongoing attack.
+
+The attack is a Remote Code Execution (RCE). As firewall log suggested, the actor is trying to submit data with the POST method. The payload 'Runtime.getRuntime().exec()' is to executed the file tomcatwar.jsp
+
+The traffic can be blocked by following ways:
+
+1.	Block incoming traffic on client request path '/tomcatwar.jsp'
+2.	Block specific parameters such as cmd, exec, which all related to file execution
+3.	Block command execution attempts: Block patterns that are commonly used in code injection or execution attempts such as Runtime.getRuntime().exec()'
+4.  Block all traffic going through port 80(HTTP)
+
+For any questions or issues, don’t hesitate to reach out to us.
+
+Kind regards,
+Telstra Security Operations
+
+```
 ---
 ### Reference and Additional Info
 [sprin4shell](https://www.cisa.gov/news-events/alerts/2022/04/01/spring-releases-security-updates-addressing-spring4shell-and-spring)
