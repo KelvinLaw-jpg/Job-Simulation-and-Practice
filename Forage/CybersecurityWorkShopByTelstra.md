@@ -37,7 +37,7 @@ The purpose of this email is to ensure the respective team is aware of the ongoi
 
 #### Resources for Task
 
-![Firewall Dashboard](Links/FirewallLog.png)
+![Firewall Dashboard](Links/FirewallDashboard.png)
 
 ![Firewall Log](Links/FirewallLog.png)
 
