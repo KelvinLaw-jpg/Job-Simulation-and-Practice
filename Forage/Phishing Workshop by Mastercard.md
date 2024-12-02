@@ -30,7 +30,8 @@ Hello (insert name),
 
 Your email account has been compromised.  immediate action is required to reset your password!
 
-Click here to reset your password in the next hour or your account will be locked: [https://en.wikipedia.org/wiki/Phishing](https://en.wikipedia.org/wiki/Phishing)
+Click here to reset your password in the next hour or your account will be locked:
+ [https://en.wikipedia.org/wiki/Phishing](https://en.wikipedia.org/wiki/Phishing)
  
 Regards,Mastercard IT
 ```
@@ -54,14 +55,19 @@ Body: 
 
 To All Mastercard Staffs,
 
-The IT department has patched the system and server firmware due to risk of compromise. It will require all staffs to reset and update their password.
+The IT department has patched the system and server firmware due to risk of compromise. It will require all staffs to reset
+and update their password.
 
-Please click [here](https://en.wikipedia.org/wiki/Phishing) to update your password in the next hour or your account will be locked. Please contact the IT support regarding to any problem during log in. 
+Please click [here](https://en.wikipedia.org/wiki/Phishing) to update your password in the next hour or your account will
+be locked. Please contact the IT support regarding to any problem during log in. 
  
 Regards,
 Mastercard IT Department
 
-Confidentiality Notice: This email and any attachments are intended solely for the use of the individual or entity to whom they are addressed. If you are not the intended recipient, you are hereby notified that any dissemination, distribution, copying, or use of this communication is strictly prohibited. If you have received this email in error, please notify the sender immediately and delete it from your system.
+Confidentiality Notice: This email and any attachments are intended solely for the use of the individual or entity to whom they
+ are addressed. If you are not the intended recipient, you are hereby notified that any dissemination, distribution, copying,
+or use of this communication is strictly prohibited. If you have received this email in error, please notify the sender
+immediately and delete it from your system.
 ```
 
 1. Ideally, the source should not have gmail as domain name, but if so then spelling the organisation name correct is important
